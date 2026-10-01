@@ -1,9 +1,6 @@
 /* ============================================================================
- * TP1 - Sistemas Operacionais
- * Parte 1 - Leitores x Escritores
- *
  * Versao 1: SEM PREFERENCIA de ordem de acesso
- *           -> PODE OCORRER LEITURA SUJA (dirty read)
+ * PODE OCORRER LEITURA SUJA (dirty read)
  *
  * Estrategia:
  *   - Escritores usam mutex APENAS entre si (evita perda de atualizacao
